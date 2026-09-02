@@ -12,3 +12,5 @@
 | MA-008 | Failure boundary | Missing tools, denied capability, failed validation/baseline, or missing durable IDs cannot be reported as success. |
 | MA-009 | Packed official DSH | A fresh official DSH profile installs the tarball, discovers the Skill in a real DSH Session, and creates a typed Monitor through that Session's Relay tool. |
 | MA-010 | Artifact hygiene | Packed contents contain no install scripts, secrets, private paths, database/log files, or undeclared imports. |
+| MA-011 | Standalone repository | A clean clone installs from its own lockfile and passes Skill lifecycle plus artifact tests without Relay workspace resolution. |
+| MA-012 | Public release | GitHub `v0.1.0`, npm `0.1.0`, repository metadata, packed integrity, and `latest` resolve to one release. |

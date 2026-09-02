@@ -1,6 +1,6 @@
 # Monitor Author DSH Plugin Specification
 
-Status: normative
+Status: normative for `0.1.0`
 
 ## Product boundary
 
@@ -34,3 +34,6 @@ The npm artifact must contain its DSH bundle patch, host entrypoint, Skill body,
 reference resources, bilingual READMEs, specification, and acceptance documents.
 It must contain no `.codex-plugin` manifest, install script, workspace import,
 private path, secret, database, or generated runtime residue.
+
+The GitHub release tag and npm version must identify the same commit and exact packed
+plugin. The tag must match `package.json` and be reachable from `main`.

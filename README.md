@@ -1,9 +1,23 @@
 # Relay Monitor Author
 
+[![npm version](https://img.shields.io/npm/v/relay-dsh-plugin-monitor-author?label=npm)](https://www.npmjs.com/package/relay-dsh-plugin-monitor-author)
+[![CI](https://github.com/yangbobo2021/relay-dsh-plugin-monitor-author/actions/workflows/ci.yml/badge.svg)](https://github.com/yangbobo2021/relay-dsh-plugin-monitor-author/actions/workflows/ci.yml)
+[![MIT license](https://img.shields.io/github/license/yangbobo2021/relay-dsh-plugin-monitor-author)](LICENSE)
+
+English | [中文](README.zh.md)
+
 DeepSeek Harness plugin that contributes the `relay-monitor-author` Skill to DSH's
 native Skill catalog. The Skill guides the current DSH Agent through live Monitor
 Bundle discovery, plugin preference, least-authority custom authoring, validation,
 and durable installation.
+
+Install the exact public release together with Monitor Core:
+
+```bash
+npx @deepseek-ai/dsh@0.1.2-alpha.3 plugin --profile web add --save-exact \
+  relay-dsh-plugin-monitors@0.3.0 \
+  relay-dsh-plugin-monitor-author@0.1.0
+```
 
 Install this package together with `relay-dsh-plugin-monitors`. DSH users can ask
 the Agent to wait for an external condition, load the Skill through DSH's native
