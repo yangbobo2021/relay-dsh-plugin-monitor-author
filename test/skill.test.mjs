@@ -66,6 +66,8 @@ test("MA-006/007/008: instructions enforce DSH discovery, exact validation, and 
 test("MA-001/010: packed artifact is a DSH plugin and contains no Codex plugin metadata", async () => {
   const manifest = JSON.parse(await readFile(join(root, "package.json"), "utf8"));
   assert.equal(manifest.name, "relay-dsh-plugin-monitor-author");
+  assert.equal(manifest.repository.url, "git+https://github.com/yangbobo2021/relay-dsh-plugin-monitor-author.git");
+  assert.equal(manifest.publishConfig.access, "public");
   assert.equal(manifest.main, "./host-plugin.js");
   assert.equal(manifest.dsh.bundle.patch, "./cordis.patch.yml");
   assert.equal(manifest.private, undefined);

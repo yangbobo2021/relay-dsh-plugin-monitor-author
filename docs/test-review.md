@@ -15,6 +15,8 @@ False-pass controls:
 - lifecycle checks the catalog after disposal;
 - instruction ordering uses byte positions and fail-closed phrases;
 - the package test rejects a surviving `.codex-plugin` path and checks tar entries;
+- the release test rejects a tag/version mismatch and a clean clone uses only the
+  package-local lockfile;
 - official acceptance checks the created Monitor's owner against the DSH Session.
 
 An import-only smoke test, a source-directory Skill file, or a Monitor created

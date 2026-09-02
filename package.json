@@ -6,6 +6,12 @@
   "license": "MIT",
   "type": "module",
   "main": "./host-plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangbobo2021/relay-dsh-plugin-monitor-author.git"
+  },
+  "homepage": "https://github.com/yangbobo2021/relay-dsh-plugin-monitor-author#readme",
+  "bugs": { "url": "https://github.com/yangbobo2021/relay-dsh-plugin-monitor-author/issues" },
   "exports": {
     ".": "./host-plugin.js",
     "./package.json": "./package.json"
@@ -13,6 +19,7 @@
   "files": [
     "README.md",
     "README.zh.md",
+    "CHANGELOG.md",
     "SPEC.md",
     "docs",
     "assets",

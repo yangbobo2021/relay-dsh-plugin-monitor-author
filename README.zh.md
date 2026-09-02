@@ -1,8 +1,22 @@
 # Relay Monitor Author
 
+[![npm 版本](https://img.shields.io/npm/v/relay-dsh-plugin-monitor-author?label=npm)](https://www.npmjs.com/package/relay-dsh-plugin-monitor-author)
+[![CI](https://github.com/yangbobo2021/relay-dsh-plugin-monitor-author/actions/workflows/ci.yml/badge.svg)](https://github.com/yangbobo2021/relay-dsh-plugin-monitor-author/actions/workflows/ci.yml)
+[![MIT 许可证](https://img.shields.io/github/license/yangbobo2021/relay-dsh-plugin-monitor-author)](LICENSE)
+
+[English](README.md) | 中文
+
 这是一个 DeepSeek Harness 插件。它把 `relay-monitor-author` Skill 注册到 DSH
 原生 Skill 目录，指导当前 DSH Agent 查询实时 Monitor Bundle、优先使用插件类型，
 并在确实没有匹配类型时，以最小权限创建、验证和安装临时 Bundle。
+
+请与 Monitor Core 一起安装公开正式版本：
+
+```bash
+npx @deepseek-ai/dsh@0.1.2-alpha.3 plugin --profile web add --save-exact \
+  relay-dsh-plugin-monitors@0.3.0 \
+  relay-dsh-plugin-monitor-author@0.1.0
+```
 
 请与 `relay-dsh-plugin-monitors` 一起安装。用户可以直接告诉 DSH Agent 等待某个
 外部条件，也可以通过 DSH 原生 Skill UI／工具加载 Skill，或显式调用
