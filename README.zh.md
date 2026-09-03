@@ -13,10 +13,12 @@
 请与 Monitor Core 一起安装公开正式版本：
 
 ```bash
-npx @deepseek-ai/dsh@0.1.2-alpha.3 plugin --profile web add --save-exact \
-  relay-dsh-plugin-monitors@0.3.0 \
-  relay-dsh-plugin-monitor-author@0.1.0
+npx @deepseek-ai/dsh@0.1.2-rc.1 plugin --profile web add --save-exact \
+  relay-dsh-plugin-monitors@0.3.1 \
+  relay-dsh-plugin-monitor-author@0.1.1
 ```
+
+同一制品继续兼容已审计的 DSH `0.1.2-alpha.3` Profile。
 
 请与 `relay-dsh-plugin-monitors` 一起安装。用户可以直接告诉 DSH Agent 等待某个
 外部条件，也可以通过 DSH 原生 Skill UI／工具加载 Skill，或显式调用

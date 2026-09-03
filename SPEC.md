@@ -1,6 +1,6 @@
 # Monitor Author DSH Plugin Specification
 
-Status: normative for `0.1.0`
+Status: normative for `0.1.1`
 
 ## Product boundary
 
