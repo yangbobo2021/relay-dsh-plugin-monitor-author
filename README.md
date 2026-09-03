@@ -15,8 +15,8 @@ Install the exact public release together with Monitor Core:
 
 ```bash
 npx @deepseek-ai/dsh@0.1.2-rc.1 plugin --profile web add --save-exact \
-  relay-dsh-plugin-monitors@0.3.1 \
-  relay-dsh-plugin-monitor-author@0.1.1
+  relay-dsh-plugin-monitors@0.3.2-rc.1 \
+  relay-dsh-plugin-monitor-author@0.1.2-rc.1
 ```
 
 The same artifact retains compatibility with audited DSH `0.1.2-alpha.3` profiles.
